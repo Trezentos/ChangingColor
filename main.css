@@ -1,0 +1,47 @@
+body{
+    background-color: darkcyan;
+    display: flex;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: 1.2s;
+ 
+}
+
+button{
+    border-radius: 40px;
+    border: 1px solid black;
+    
+}
+
+div{
+    border:1px solid black;
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: 1px 2px;
+    background-color: slategrey;
+    margin-top: 25%;
+    cursor:pointer;
+    user-select: none;
+}
+  
+div:active{
+    box-shadow: none;
+    border:none;
+    
+}
+
+div:hover{
+    background-color: gray;
+    transition: 0.4s;
+}
+
+
+
+
+
+
+
+
+
+
+
