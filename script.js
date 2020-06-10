@@ -1,11 +1,11 @@
-
 const body = document.querySelector('body')
-const div = document.querySelector('div')
+
 const colors = ['deepskyblue', '#239B56 ', '#2E4053', '#0E6251','violet'
                 ,'#2E4053', 'purple', 'tomato', 'yellow']
 
 
-document.querySelector('div').addEventListener('click', changeCollor)
+document.querySelector('#botao').addEventListener('click', changeCollor)
+
 
 function changeCollor(){
 
@@ -17,4 +17,3 @@ function changeCollor(){
     console.log(random)
     
 }
-
